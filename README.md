@@ -81,10 +81,16 @@ A IA **pode errar**, portanto:
 1. Insira uma imagem no local indicado, de preferencia JPG ou JPEG:
 <img width="704" height="119" alt="image" src="https://github.com/user-attachments/assets/7741d9fa-676b-45ef-84e4-76c9ed27f62f" />
 
+---
+
 2. Por fim você podera fazer suas perguntas sobre a imagem diretamente no chat ao lado:
 <img width="1094" height="549" alt="image" src="https://github.com/user-attachments/assets/e862d592-a192-4a37-9dcb-4c90cea0329b" />
 
+---
+
 3. Atente-se ao seu numero limitado de tokens, pois quando acabar, o programa não respondera mais.
+
+---
 
 ### ❌ Refoçando o aviso:
 Não utilize este classificador para:
