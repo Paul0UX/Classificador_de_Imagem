@@ -1,6 +1,6 @@
 # 🖼️ Classificador de Imagens com IA (Google Gemini + LLM)
 
-Este projeto é um **classificador de imagens** que utiliza **IA generativa (LLM)** através da **API Gemini**, permitindo identificar conteúdos presentes em fotos enviadas pelo usuário.  
+Este projeto é um **classificador de imagens** que utiliza **IA generativa (LLM)** através da **API Gemini**, permitindo identificar conteúdos presentes em fotos enviadas pelo usuário e classificando como inapropriada ou apropriada.  
 A interface é construída em **Streamlit**, proporcionando uma experiência simples, rápida e intuitiva.
 
 ---
@@ -17,20 +17,39 @@ A interface é construída em **Streamlit**, proporcionando uma experiência sim
 O classificador utiliza modelos multimodais do **Google Gemini**, capazes de interpretar imagens e gerar descrições inteligentes sobre seu conteúdo.
 
 ---
+## 🧩Categorias de Conteudos Inapropiados:
 
-## ⚠️ Aviso Importante
+CATEGORIA 1 – Conteúdos adultos
+- Nudez
+- Seminudês
+- Atividade sexual
+- Conteúdo sugestivo
 
-Este projeto **não deve ser utilizado como fonte de verdade absoluta**, especialmente em cenários que envolvem riscos.  
-A IA **pode errar**, portanto:
+CATEGORIA 2 – Violência
+- Sangue
+- Ferimentos
+- Armas brancas
+- Armas de fogo
+- Violência explícita
+- Violência doméstica
 
-### ❌ Não utilize este classificador para:
-- Identificar alimentos potencialmente venenosos  
-- Verificar se plantas ou cogumelos são tóxicos  
-- Avaliar segurança de animais, insetos ou substâncias  
-- Tomar decisões que envolvam **saúde**, **segurança** ou **riscos à vida**
+CATEGORIA 3 – Drogas
+- Uso de drogas ilícitas
+- Consumo de álcool
+- Consumo de cigarro/vape
+- Paraphernália de drogas
 
-> **Use apenas para fins educacionais, experimentais ou demonstração.**
+CATEGORIA 4 – Conteúdos perigosos
+- Automutilação
+- Tentativa de suicídio
+- Comportamentos perigosos (ex.: perigo de queda)
+- Crianças em perigo
+- Conteúdo ilegal
+- Conteúdo perturbador (morte, cadáver, etc.)
 
+CATEGORIA 5 – Discurso problemático
+- Bullying
+- Gestos ofensivos
 ---
 
 ## 🔑 Como obter sua chave da API Gemini (Google AI)
@@ -79,22 +98,15 @@ A IA **pode errar**, portanto:
 ## 🧐 Utilizando o programa
 
 1. Insira uma imagem no local indicado, de preferencia JPG ou JPEG:
-<img width="704" height="119" alt="image" src="https://github.com/user-attachments/assets/7741d9fa-676b-45ef-84e4-76c9ed27f62f" />
+<img width="424" height="182" alt="image" src="https://github.com/user-attachments/assets/cb7a8e38-5b78-40e9-bebc-b429aa68fa07" />
+
 
 ---
 
-2. Por fim você podera fazer suas perguntas sobre a imagem diretamente no chat ao lado:
-<img width="1094" height="549" alt="image" src="https://github.com/user-attachments/assets/e862d592-a192-4a37-9dcb-4c90cea0329b" />
+2. Por fim clicar no botão ''Analisar Imagem'':
+<img width="839" height="738" alt="image" src="https://github.com/user-attachments/assets/72034d48-7693-4fde-9fa2-a87cdb9e954f" />
+
 
 ---
 
 3. Atente-se ao seu numero limitado de tokens, pois quando acabar, o programa não respondera mais.
-
----
-
-### ❌ Refoçando o aviso:
-Não utilize este classificador para:
-- Identificar alimentos potencialmente venenosos  
-- Verificar se plantas ou cogumelos são tóxicos  
-- Avaliar segurança de animais, insetos ou substâncias  
-- Tomar decisões que envolvam **saúde**, **segurança** ou **riscos à vida**
