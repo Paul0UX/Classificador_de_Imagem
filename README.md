@@ -104,7 +104,8 @@ CATEGORIA 5 – Discurso problemático
 ---
 
 2. Por fim clicar no botão ''Analisar Imagem'':
-<img width="839" height="738" alt="image" src="https://github.com/user-attachments/assets/72034d48-7693-4fde-9fa2-a87cdb9e954f" />
+<img width="1822" height="781" alt="image" src="https://github.com/user-attachments/assets/c14b9784-b266-4330-a47f-a9f382aac9f6" />
+
 
 
 ---
